@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:gravity="center"
+    tools:context="com.example.onlyu.startup.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/tic11"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="2.5pt"
+            android:background="@color/tic"
+            android:onClick="select" />
+
+        <Button
+            android:id="@+id/tic12"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="2.5pt"
+            android:background="@color/tic"
+            android:onClick="select" />
+
+        <Button
+            android:id="@+id/tic13"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="2.5pt"
+            android:background="@color/tic"
+            android:onClick="select" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/tic21"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="2.5pt"
+            android:layout_marginTop="2.5pt"
+            android:background="@color/tic"
+            android:onClick="select" />
+
+        <Button
+            android:id="@+id/tic22"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="2.5pt"
+            android:layout_marginTop="2.5pt"
+            android:background="@color/tic"
+            android:onClick="select" />
+
+        <Button
+            android:id="@+id/tic23"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="2.5pt"
+            android:layout_marginTop="2.5pt"
+            android:background="@color/tic"
+            android:onClick="select" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/tic31"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="2.5pt"
+            android:layout_marginTop="2.5pt"
+            android:background="@color/tic"
+            android:onClick="select" />
+
+        <Button
+            android:id="@+id/tic32"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="2.5pt"
+            android:layout_marginTop="2.5pt"
+            android:background="@color/tic"
+            android:onClick="select" />
+
+        <Button
+            android:id="@+id/tic33"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="2.5pt"
+            android:layout_marginTop="2.5pt"
+            android:background="@color/tic"
+            android:onClick="select" />
+    </TableRow>
+
+</TableLayout>
